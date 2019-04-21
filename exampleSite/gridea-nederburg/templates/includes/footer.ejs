@@ -1,0 +1,33 @@
+<footer id="site-footer" class="site-footer" role="contentinfo">
+    <h1>
+        <a href="<%= themeConfig.domain %>"> <%= themeConfig.siteName %> </a>
+    </h1>
+    <p class="site-description"><%- themeConfig.siteDescription %></p>
+    <div id="menu-footer" class="menu-container menu-footer" role="navigation">
+        <div class="menu">
+            <ul id="menu-footer-items" class="menu-footer-items">
+            </ul>
+        </div>
+    </div>
+    <ul class="social-media-icons">
+        <% ['github', 'twitter', 'weibo', 'zhihu', 'facebook'].forEach((item) => { %>
+            <% if (site.customConfig[item]) { %>
+                <li>
+                    <a href="<%= site.customConfig[item] %>" data-animate-hover="pulse" class="<%= item %>" target="_blank">
+                        <i class="fab fa-<%= item %>" title="<%= item %>"></i>
+                        <span class="screen-reader-text"><%= item %></span>
+                    </a>
+                </li>
+            <% } %>
+        <% }) %>
+    </ul>
+    <div class="design-credit">
+        <p><%-themeConfig.footerInfo%></p>
+    </div>
+</footer>
+<script>
+    hljs.initHighlightingOnLoad()
+</script>
+<script src="<%= themeConfig.domain %>/media/scripts/lib/jquery.min.js"></script>
+<script src="<%= themeConfig.domain %>/media/scripts/lib/jquerymigrate.js"></script>
+<script src="<%= themeConfig.domain %>/media/scripts/lib/production.min.js"></script>

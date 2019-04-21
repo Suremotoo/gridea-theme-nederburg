@@ -1,0 +1,23 @@
+<html>
+<head>
+  <%- include('./includes/head', { siteTitle: themeConfig.siteName }) %>
+</head>
+<body class="post-template-default single single-post single-format-standard ct-body singular singular-post not-front standard">
+<div id="overflow-container" class="overflow-container">
+<!--  <a class="skip-content" href="#main">Skip to content</a>-->
+  <%- include('./includes/header') %>
+  <div id="main" class="main" role="main">
+    <div class="main-content">
+      <div class="tags-container">
+        <% tags.forEach((tag) => { %>
+          <a class="tag" href="<%= tag.link %>"><%= tag.name %></a>
+        <% }); %>
+      </div>
+    </div>
+  </div>
+  <%- include('./includes/footer') %>
+</div>
+</body>
+</html>
+
+

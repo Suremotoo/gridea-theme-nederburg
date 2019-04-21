@@ -1,0 +1,45 @@
+<div id="main" class="main" role="main">
+  <h1 class="screen-reader-text">Posts</h1>
+  <% posts.forEach(function(post, index) { %>
+  <div id="loop-container" class="loop-container">
+    <div class="post type-post status-publish format-standard  <% if (themeConfig.showFeatureImage && post.feature) { %> has-post-thumbnail <%}%>hentry category-design tag-memories
+    tag-normal-post tag-standard-2 excerpt zoom full-without-featured
+      <% if (index % 2 == 0) { %>
+      even
+      <% } else {%>
+        odd
+      <% } %> excerpt">
+      <% if (themeConfig.showFeatureImage && post.feature) { %>
+      <a class="featured-image-link" href="<%= post.link %>">
+        <div class='featured-image lazy lazy-bg-image' data-background="<%= post.feature %>"></div>
+      </a>
+      <% } %>
+      <div class="excerpt-container">
+        <div class="excerpt-meta">
+          <span class="date">  · <%= post.dateFormat %> ·</span> <span> / </span>
+          <span class="author">
+              <a href="<%= themeConfig.domain %>" title="Posts by  <%= themeConfig.siteName %>" rel="author"> <%= themeConfig.siteName %></a>
+          </span>
+            <% post.tags.forEach(function(tag) { %>
+                <span> / </span>
+                <span class="category">
+                        <a href="<%= tag.link %>"><%= tag.name %></a>
+                </span>
+            <% }); %>
+
+        </div>
+        <div class='excerpt-header'>
+          <h2 class='excerpt-title'>
+            <a href="<%= post.link %>"> <%= post.title %> </a>
+          </h2>
+        </div>
+        <div class='excerpt-content'>
+          <article>
+              <%- post.abstract %>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% }); %>
+</div>

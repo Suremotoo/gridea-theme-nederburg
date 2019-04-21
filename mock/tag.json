@@ -1,0 +1,201 @@
+{
+  "tag": {
+    "name": "Gridea",
+    "slug": "gridea",
+    "used": true
+  },
+  "menus": [
+    {
+      "link": "/",
+      "name": "首页",
+      "openType": "Internal"
+    },
+    {
+      "link": "/archives",
+      "name": "归档",
+      "openType": "Internal"
+    },
+    {
+      "link": "/tags",
+      "name": "标签",
+      "openType": "Internal"
+    },
+    {
+      "link": "/post/about",
+      "name": "关于",
+      "openType": "Internal"
+    }
+  ],
+  "posts": [
+    {
+      "content": "<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>\n✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>\n<!-- more -->\n<p><a href=\"https://github.com/getgridea/gridea\">Github</a><br>\n<a href=\"http://hvenotes.fehey.com/\">Gridea 主页</a><br>\n<a href=\"http://fehey.com/\">示例网站</a></p>\n<h2 id=\"特性\">特性👇</h2>\n<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>\n<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>\n<p>🏷️  你可以对文章进行标签分组</p>\n<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>\n<p>💻  你可以在 <strong>𝖶𝗂𝗇𝖽𝗈𝗐𝗌</strong> 或 <strong>𝖬𝖺𝖼𝖮𝖲</strong> 设备上使用此客户端</p>\n<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>\n<p>💬  你可以进行简单的配置，接入 <a href=\"https://github.com/gitalk/gitalk\">Gitalk</a> 或 <a href=\"https://github.com/SukkaW/DisqusJS\">DisqusJS</a> 评论系统</p>\n<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>\n<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>\n<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>\n<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前🏃</p>\n<p>未来，它一定会成为你离不开的伙伴</p>\n<p>尽情发挥你的才华吧！</p>\n<p>😘 Enjoy~</p>\n",
+      "fileName": "hello-gridea",
+      "abstract": "<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>\n✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>\n",
+      "title": "Hello Gridea",
+      "tags": [
+        {
+          "name": "Gridea",
+          "slug": "gridea",
+          "used": true,
+          "link": "/tag/gridea"
+        }
+      ],
+      "date": "2018-12-12 00:00:00",
+      "dateFormat": "2018-12-12",
+      "feature": "https://gridea.dev/themes.png",
+      "link": "/post/hello-gridea",
+      "hideInList": false,
+      "toc": "<ul class=\"markdownIt-TOC\">\n<li>\n<ul>\n<li><a href=\"#%E7%89%B9%E6%80%A7\">特性👇</a></li>\n</ul>\n</li>\n</ul>\n"
+    }
+  ],
+  "pagination": {
+    "prev": "",
+    "next": ""
+  },
+  "themeConfig": {
+    "footerInfo": "<a href=\"https://suremotoo.site\">Suremotoo</a>",
+    "postPageSize": 10,
+    "archivesPageSize": 50,
+    "showFeatureImage": true,
+    "siteDescription": "温故而知新",
+    "siteName": "Gridea",
+    "themeName": "notes",
+    "dateFormat": "YYYY-MM-DD",
+    "postUrlFormat": "SLUG",
+    "tagUrlFormat": "SHORT_ID",
+    "domain": ".."
+  },
+  "site": {
+    "posts": [
+      {
+        "content": "<p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。</p>\n<!-- more -->\n<h2 id=\"markdown是什么\">Markdown是什么</h2>\n<p>Markdown 是一种轻量级的 <strong>标记语言</strong>，以 <strong>纯文本</strong> 的形式编写文档，通过简洁的语法代替排版，并且可以导出 <strong>HTML</strong>、<strong>PDF</strong> 等格式。</p>\n<h2 id=\"为什么要使用-markdown\">为什么要使用 Markdown</h2>\n<ul>\n<li>格式清晰，读起来很舒服</li>\n<li>语法简洁，编写时可以更<strong>专注于内容</strong>而非排版格式</li>\n<li><strong>纯文本</strong>形式，兼容所有的文本编辑器</li>\n<li>可导出 HTML、PDF 等常见格式</li>\n</ul>\n<h2 id=\"如何使用-markdown\">如何使用 Markdown</h2>\n<p>Markdown 的语法非常简单，主要包含以下几个部分：<strong>标题</strong>，<strong>段落</strong>，<strong>列表</strong>，<strong>强调</strong>，<strong>区块引用</strong>，<strong>代码区块</strong>，<strong>行内代码</strong>，<strong>分割线</strong>，<strong>链接</strong>，<strong>自动链接</strong>，<strong>图片</strong>，<strong>反斜杠</strong>，<strong>表格（扩展）</strong>。</p>\n<h3 id=\"1-标题\">1. 标题</h3>\n<p>标题有两种形式，一种形式为在文字下方添加 <code>=====</code> 或 <code>-----</code>，分别表示一级标题和二级标题，如</p>\n<pre><code class=\"language-markdown\">一级标题\n=====\n\n二级标题\n-----\n</code></pre>\n<p>效果为</p>\n<blockquote>\n<h1 id=\"一级标题\">一级标题</h1>\n<h2 id=\"二级标题\">二级标题</h2>\n</blockquote>\n<p>另一种形式在标题前添加 <code>#</code>，添加一个 <code>#</code> 为一级标题，两个为二级标题，最多可至六级标题，如</p>\n<pre><code class=\"language-markdown\"># 一级标题\n## 二级标题\n### 三级标题\n#### 四级标题\n##### 五级标题\n###### 六级标题\n</code></pre>\n<p>效果为</p>\n<blockquote>\n<h1 id=\"一级标题-2\">一级标题</h1>\n<h2 id=\"二级标题-2\">二级标题</h2>\n<h3 id=\"三级标题\">三级标题</h3>\n<h4 id=\"四级标题\">四级标题</h4>\n<h5 id=\"五级标题\">五级标题</h5>\n<h6 id=\"六级标题\">六级标题</h6>\n</blockquote>\n<h3 id=\"2-段落\">2. 段落</h3>\n<p>一个 Markdown 段落是由一个或多个连续的文本行组成，<strong>段落前后要有一个以上没有文字的空行</strong>。使用 <strong>两个以上的空格加回车</strong> 可强制在 <strong>段落内换行</strong>。</p>\n<p>段落的开头 <strong>不应该使用空格或者制表符（Tab）缩进</strong>。</p>\n<h3 id=\"3-列表\">3. 列表</h3>\n<p>Markdown 支持无序列表和有序列表。无序列表使用**星号<code>*</code>、加号<code>+</code>或减号<code>-</code>加至少一个空格或制表符（Tab）**作为列表标记，如</p>\n<pre><code class=\"language-markdown\">* 第一项\n* 第二项\n* 第三项\n</code></pre>\n<p>效果为</p>\n<ul>\n<li>第一项</li>\n<li>第二项</li>\n<li>第三项</li>\n</ul>\n<p>有序列表使用 <strong>数字加点 <code>.</code> 再加至少一个空格或制表符</strong> 作为列表标记，如</p>\n<pre><code class=\"language-markdown\">1. 第一项\n2. 第二项\n3. 第三项\n</code></pre>\n<p>效果为</p>\n<ol>\n<li>第一项</li>\n<li>第二项</li>\n<li>第三项</li>\n</ol>\n<h3 id=\"4-强调\">4. 强调</h3>\n<p>内容前后加上 <strong>星号 <code>*</code> 或 下划线<code>_</code></strong> 表示 <strong>强调</strong>。前后加一个星号或下划线为 <em>斜体</em>，两个为 <strong>粗体</strong>，三个为 <em><strong>粗斜体</strong></em>。如</p>\n<pre><code class=\"language-markdown\">*强调*\n**强调**\n***强调***\n</code></pre>\n<p>效果为</p>\n<p><em>强调</em></p>\n<p><strong>强调</strong></p>\n<p><em><strong>强调</strong></em></p>\n<h3 id=\"5-区块引用\">5. 区块引用</h3>\n<p>在段落的 <strong>第一行或每行开头</strong> 使用 <code>&gt;</code> 表示引用，多个 <code>&gt;</code> 表示嵌套，如</p>\n<pre><code class=\"language-markdown\">&gt; 区块引用\n&gt;&gt; 嵌套引用\n</code></pre>\n<p>效果为</p>\n<blockquote>\n<p>区块引用</p>\n<blockquote>\n<p>嵌套引用</p>\n</blockquote>\n</blockquote>\n<h3 id=\"6-代码区块\">6. 代码区块</h3>\n<p>代码区块可以按如下格式输入</p>\n<pre><code class=\"language-markdown\">​```java\npublic static void main(string[] args) {\n\tSystem.out.println(&quot;Hello, Gridea&quot;);\n}\n​```\n</code></pre>\n<p>效果为</p>\n<pre><code class=\"language-java\">public static void main(string[] args) {\n\tSystem.out.println(&quot;Hello, Gridea&quot;);\n}\n</code></pre>\n<h3 id=\"7-行内代码\">7. 行内代码</h3>\n<p>前后含 <strong>反引号( ` )</strong> 的内容为行内代码，如</p>\n<pre><code class=\"language-markdown\">`System.out.println(&quot;Hello, Gridea&quot;)` 表示输出&quot;Hello, Gridea&quot;。\n</code></pre>\n<p>效果为</p>\n<p><code>System.out.println(&quot;Hello, Gridea&quot;)</code> 表示输出&quot;Hello, Gridea&quot;。</p>\n<h3 id=\"8-分割线\">8. 分割线</h3>\n<p>三个或三个以上的星号 <code>*</code>、减号 <code>-</code>及下划线 <code>_</code>表示 <strong>分割线</strong>，中间可插入空格，如</p>\n<pre><code class=\"language-markdown\">***\n- - -\n</code></pre>\n<p>效果为</p>\n<hr>\n<hr>\n<h3 id=\"9-链接\">9. 链接</h3>\n<p>Markdown 支持两种形式的链接，<strong>行内式</strong> 和 <strong>参考式</strong>。<br>\n<strong>行内式</strong> 的链接文字用中括号 <code>[]</code> 标记，方括号后紧接小括号 <code>()</code> 标记网址链接，可在网址链接后用引号标记链接的 title 文字，如</p>\n<pre><code class=\"language-markdown\">[Gridea](https://gridea.dev/ &quot;Gridea&quot;)\n</code></pre>\n<p>效果为</p>\n<p><a href=\"https://gridea.dev/\" title=\"Gridea\">Gridea</a></p>\n<p><strong>参考式</strong> 的链接文字同样使用中括号 <code>[]</code> 标记，后面再接一个中括号标记链接的标识，需要在文件的任意处通过 <code>[id]:url &quot;title&quot;</code> 标记链接，如</p>\n<pre><code class=\"language-markdown\">[Gridea][1]  \n[1]:https://gridea.dev/ &quot;Gridea&quot;\n</code></pre>\n<p>效果为</p>\n<p><a href=\"https://gridea.dev/\" title=\"Gridea\">Gridea</a></p>\n<h3 id=\"10-自动链接\">10. 自动链接</h3>\n<p>Markdown 支持以 <strong>简短的自动链接</strong> 形式处理网址和电子邮箱，用尖括号 <code>&lt;&gt;</code> 标记，如</p>\n<pre><code class=\"language-markdown\">&lt;https://gridea.dev&gt;\n</code></pre>\n<p>效果为</p>\n<p><a href=\"https://gridea.dev\">https://gridea.dev</a></p>\n<h3 id=\"11-图片\">11. 图片</h3>\n<p>Markdown 中标记图片的方式与标记链接类似，同样允许 <strong>行内式</strong> 和 <strong>参考式</strong> 两种形式，只需在链接文字的标记前加一个感叹号 <code>!</code>，如</p>\n<pre><code class=\"language-markdown\">![Gridea](https://raw.githubusercontent.com/getgridea/gridea/master/public/app-icons/gridea.png &quot;Gridea&quot;)\n</code></pre>\n<p>效果为</p>\n<blockquote>\n<p><img src=\"https://raw.githubusercontent.com/getgridea/gridea/master/public/app-icons/gridea.png\" alt=\"Gridea\" title=\"Gridea\"></p>\n</blockquote>\n<p><em><strong>遗憾的是 Markdown 不支持指定图片的宽高</strong></em></p>\n<h3 id=\"12-反斜杠\">12. 反斜杠</h3>\n<p>通过反斜杠 <code>\\</code> 可插入一些在 Markdown 语法中有其他意义的符号，如</p>\n<pre><code class=\"language-markdown\">\\*前后为星号\\*\n</code></pre>\n<p>效果为</p>\n<p>*前后为星号*</p>\n<p>Markdown 支持在以下符号前加反斜杠 <code>\\</code> 来帮助插入普通的符号：</p>\n<pre><code>\\\t反斜杠   \n`\t反引号\n*\t星号\n_\t下划线\n{}\t大括号\n[]\t中括号\n()\t小括号\n#\t井号\n+\t加好\n-\t减号\n.\t英文句号\n!\t感叹号\n</code></pre>\n<h3 id=\"13-表格扩展\">13. 表格(扩展)</h3>\n<p>表格为 <strong>扩展</strong> 的 Markdown 语法，<code>|</code> 表示纵向的边界，表头和内容之间用 <strong>三个或三个以上减号 <code>-</code> 隔开</strong>，可以使用冒号 <code>:</code> 设置 <strong>对齐方式</strong>。冒号 <code>:</code> 在左边表示左对齐，在右边表示右对齐，两边都有冒号 <code>:</code> 表示居中，不使用冒号 <code>:</code> 时默认 <strong>左对齐</strong>，如</p>\n<pre><code class=\"language-markdown\">| name | gender | age |\n| :---: | :---: | :---: |\n| Xiaoming | boy | 18 |\n| Xiaohong | girl | 12 |\n</code></pre>\n<p>效果为</p>\n<table>\n<thead>\n<tr>\n<th style=\"text-align:center\">name</th>\n<th style=\"text-align:center\">gender</th>\n<th style=\"text-align:center\">age</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:center\">Xiaoming</td>\n<td style=\"text-align:center\">boy</td>\n<td style=\"text-align:center\">18</td>\n</tr>\n<tr>\n<td style=\"text-align:center\">Xiaohong</td>\n<td style=\"text-align:center\">girl</td>\n<td style=\"text-align:center\">12</td>\n</tr>\n</tbody>\n</table>\n",
+        "fileName": "3",
+        "abstract": "<p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。</p>\n",
+        "title": "Markdown 简明教程",
+        "tags": [
+          {
+            "index": -1,
+            "name": "生活随想",
+            "slug": "WibWptDz1",
+            "used": true,
+            "link": "/tag/WibWptDz1"
+          }
+        ],
+        "date": "2019-04-18 18:32:46",
+        "dateFormat": "2019-04-18",
+        "feature": "https://images.unsplash.com/photo-1505739998589-00fc191ce01d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
+        "link": "/post/3",
+        "hideInList": false,
+        "toc": "<ul class=\"markdownIt-TOC\">\n<li>\n<ul>\n<li><a href=\"#markdown%E6%98%AF%E4%BB%80%E4%B9%88\">Markdown是什么</a></li>\n<li><a href=\"#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8-markdown\">为什么要使用 Markdown</a></li>\n<li><a href=\"#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-markdown\">如何使用 Markdown</a>\n<ul>\n<li><a href=\"#1-%E6%A0%87%E9%A2%98\">1. 标题</a></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><a href=\"#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98\">一级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98\">二级标题</a></li>\n</ul>\n</li>\n<li><a href=\"#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98-2\">一级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98-2\">二级标题</a>\n<ul>\n<li><a href=\"#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98\">三级标题</a>\n<ul>\n<li><a href=\"#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98\">四级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98\">五级标题</a>\n<ul>\n<li><a href=\"#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98\">六级标题</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><a href=\"#2-%E6%AE%B5%E8%90%BD\">2. 段落</a></li>\n<li><a href=\"#3-%E5%88%97%E8%A1%A8\">3. 列表</a></li>\n<li><a href=\"#4-%E5%BC%BA%E8%B0%83\">4. 强调</a></li>\n<li><a href=\"#5-%E5%8C%BA%E5%9D%97%E5%BC%95%E7%94%A8\">5. 区块引用</a></li>\n<li><a href=\"#6-%E4%BB%A3%E7%A0%81%E5%8C%BA%E5%9D%97\">6. 代码区块</a></li>\n<li><a href=\"#7-%E8%A1%8C%E5%86%85%E4%BB%A3%E7%A0%81\">7. 行内代码</a></li>\n<li><a href=\"#8-%E5%88%86%E5%89%B2%E7%BA%BF\">8. 分割线</a></li>\n<li><a href=\"#9-%E9%93%BE%E6%8E%A5\">9. 链接</a></li>\n<li><a href=\"#10-%E8%87%AA%E5%8A%A8%E9%93%BE%E6%8E%A5\">10. 自动链接</a></li>\n<li><a href=\"#11-%E5%9B%BE%E7%89%87\">11. 图片</a></li>\n<li><a href=\"#12-%E5%8F%8D%E6%96%9C%E6%9D%A0\">12. 反斜杠</a></li>\n<li><a href=\"#13-%E8%A1%A8%E6%A0%BC%E6%89%A9%E5%B1%95\">13. 表格(扩展)</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n"
+      },
+      {
+        "content": "<p>Vue.js 是一个渐进式 JavaScript 框架。易用、灵活、高效～</p>\n<!-- more -->\n<h2 id=\"vuejs-是什么\">Vue.js 是什么</h2>\n<p>Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href=\"https://cn.vuejs.org/v2/guide/single-file-components.html\">现代化的工具链</a>以及各种<a href=\"https://github.com/vuejs/awesome-vue#libraries--plugins\">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>\n<p>如果你想在深入学习 Vue 之前对它有更多了解，我们制作了一个视频，带您了解其核心概念和一个示例工程。</p>\n<p>如果你已经是有经验的前端开发者，想知道 Vue 与其它库/框架有哪些区别，请查看<a href=\"https://cn.vuejs.org/v2/guide/comparison.html\">对比其它框架</a>。</p>\n<h2 id=\"起步\">起步</h2>\n<blockquote>\n<p>官方指南假设你已了解关于 HTML、CSS 和 JavaScript 的中级知识。如果你刚开始学习前端开发，将框架作为你的第一步可能不是最好的主意——掌握好基础知识再来吧！之前有其它框架的使用经验会有帮助，但这不是必需的。</p>\n</blockquote>\n<p>尝试 Vue.js 最简单的方法是使用 <a href=\"https://jsfiddle.net/chrisvfritz/50wL7mdz/\">JSFiddle 上的 Hello World 例子</a>。你可以在浏览器新标签页中打开它，跟着例子学习一些基础用法。或者你也可以创建一个 .html 文件，然后通过如下方式引入 Vue：</p>\n<pre><code class=\"language-html\">&lt;!-- 开发环境版本，包含了有帮助的命令行警告 --&gt;\n&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&quot;&gt;&lt;/script&gt;\n</code></pre>\n<p>或者：</p>\n<pre><code class=\"language-html\">&lt;!-- 生产环境版本，优化了尺寸和速度 --&gt;\n&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue&quot;&gt;&lt;/script&gt;\n</code></pre>\n<p><a href=\"https://cn.vuejs.org/v2/guide/installation.html\">安装教程</a>给出了更多安装 Vue 的方式。请注意我们不推荐新手直接使用 <code>vue-cli</code>，尤其是在你还不熟悉基于 Node.js 的构建工具时。</p>\n<p>如果你喜欢交互式的东西，你也可以查阅<a href=\"https://scrimba.com/playlist/pXKqta\">这个 Scrimba 上的系列教程</a>，它揉合了录屏和代码试验田，并允许你随时暂停和播放。</p>\n",
+        "fileName": "2",
+        "abstract": "<p>Vue.js 是一个渐进式 JavaScript 框架。易用、灵活、高效～</p>\n",
+        "title": "Vue.js 文档摘录",
+        "tags": [
+          {
+            "index": -1,
+            "name": "编程生涯",
+            "slug": "rwkHQqSzU",
+            "used": true,
+            "link": "/tag/rwkHQqSzU"
+          }
+        ],
+        "date": "2019-04-18 18:11:37",
+        "dateFormat": "2019-04-18",
+        "feature": "https://images.unsplash.com/photo-1555456274-58a32f9c3fad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
+        "link": "/post/2",
+        "hideInList": false,
+        "toc": "<ul class=\"markdownIt-TOC\">\n<li>\n<ul>\n<li><a href=\"#vuejs-%E6%98%AF%E4%BB%80%E4%B9%88\">Vue.js 是什么</a></li>\n<li><a href=\"#%E8%B5%B7%E6%AD%A5\">起步</a></li>\n</ul>\n</li>\n</ul>\n"
+      },
+      {
+        "content": "<p>少年有他的沧海，有他的重重山影，有他的万里波涛。</p>\n<!-- more -->\n<p>他还要路过四月的桃林，一顾人间惊鸿;他还要路过十二月的小巷，领略四季变幻。他时常仰望触不可及的星空，做一场穿越时空的梦，回首人间烟火，祝这个世界越来越热闹，祝我仍然是我。</p>\n<p>《世说新语》里面有一段让人耳目一新的对话：桓公少与殷侯齐名，常有竞心。桓问殷：“卿何如我?”殷云：“我与我周旋久，宁作我!” 每个人的生命历程都有其独特的色彩，年少时不忧春风染白鬓，长大后却顾离乡万里愁，待到垂垂暮年，澹然的回顾这一生，或许诸多悔憾，或许点滴清欢，若有来世修行，还赴前生道场。</p>\n<p>最近听朴树的《送别》，每每想到那些故事里的离别场景，心里总会升起淡淡的感伤。古人有折柳相寄，临歧饮饯，抑或驿寄梅花，鱼传尺素。今人的送别又哪里来的那么多长亭古道笛江柳，不过是一个如往常一样的清晨或者黄昏，于某个火车站或者路口，目送故人离别的声影，自己默默的转身，归葬人海。而后听着耳机里的一首小曲，消减那四面八荒袭来的孤单。</p>\n<p>记得以前看过一段资讯：“凌晨三点的北京”。走在空荡荡的街头，总会有一些路宿者，白天他们为生活而奔波，夜晚悄然的熟睡于街头。其实我们看过的不止有凌晨三点的北京，还有凌晨四点的重庆，还有凌晨五点的金陵，还有很多很多。</p>\n<p>在繁华街道的尽头总会有衣衫褴褛的流浪者在垃圾桶里翻捡着塑料瓶，为了生存他们徘徊在城市里最寂静的角落。在晚间八点左右某个中学的门口总会排起长长的车队，每一个人都在人群里努力的踮起脚尖，寻找着自己孩子的身影，为了孩子，再忙他们也会抽出时间来接送他们。在凌晨十二点的路边烧烤摊总会有各种各样的人在撸串，有衣着光鲜的白领，也有忙碌奔波的出租车司机。这一刻我们都是被生活消磨的平凡人而已，放下一身的疲惫，化作繁华市井里的一点萤火。</p>\n<p>七堇年在《尘曲》中写过：“心之所向，素履以往，生如逆旅，一苇以航。”寻常生活中所遇种种不尽人意之事总在试图将我们埋葬，殊不知我们其实是种子，总有一天会向着朝阳，开花结果。年少时有一颗红楼梦的心，却也想着一场西游记的修行。在渐行渐远的路上，看过几场流连忘返的景致，走过几座雨雪霏霏的小桥，识得数位推心置腹的好友，经得几段跌宕起伏的故事，这短短的一生，亦无所遗憾了。</p>\n<p>四月烟雨倾城，良夜染墨飞宣，执笔一剪烛火，梳理浅浅灵思。窗外蛙声阵阵，入了谁的梦;林间鸣蛩织语，敲了谁的枕?世间繁华如故，蓦然回首处，不变的灯火阑珊，不变的星辰流转，只愿你我斟一杯红尘的酒也好，酌一盏世俗的茶也罢，饮尽而归，如梦初醒，不忘初心，绥绥而行。</p>\n",
+        "fileName": "1",
+        "abstract": "<p>少年有他的沧海，有他的重重山影，有他的万里波涛。</p>\n",
+        "title": "惟世之繁华如故，斟酌岁月如初",
+        "tags": [
+          {
+            "index": -1,
+            "name": "文学集锦",
+            "slug": "V6NMYW_ta",
+            "used": true,
+            "link": "/tag/V6NMYW_ta"
+          }
+        ],
+        "date": "2019-04-18 17:47:58",
+        "dateFormat": "2019-04-18",
+        "feature": "https://images.unsplash.com/photo-1555400113-4961f30f68bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
+        "link": "/post/1",
+        "hideInList": false,
+        "toc": ""
+      },
+      {
+        "content": "<p>这是关于的页面，可以在这里向世界介绍你！</p>\n<p>Gridea —— 一个静态博客写作客户端。开源、易用、强大～<br>\n记录生活、心情、知识、笔记、创意...<br>\n尽情发挥你的才华吧！</p>\n<p>😘 𝖤𝗇𝗃𝗈𝗒~</p>\n",
+        "fileName": "about",
+        "abstract": "",
+        "title": "关于",
+        "tags": [],
+        "date": "2019-01-25 19:09:48",
+        "dateFormat": "2019-01-25",
+        "feature": "",
+        "link": "/post/about",
+        "hideInList": true,
+        "toc": ""
+      },
+      {
+        "content": "<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>\n✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>\n<!-- more -->\n<p><a href=\"https://github.com/getgridea/gridea\">Github</a><br>\n<a href=\"http://hvenotes.fehey.com/\">Gridea 主页</a><br>\n<a href=\"http://fehey.com/\">示例网站</a></p>\n<h2 id=\"特性\">特性👇</h2>\n<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>\n<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>\n<p>🏷️  你可以对文章进行标签分组</p>\n<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>\n<p>💻  你可以在 <strong>𝖶𝗂𝗇𝖽𝗈𝗐𝗌</strong> 或 <strong>𝖬𝖺𝖼𝖮𝖲</strong> 设备上使用此客户端</p>\n<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>\n<p>💬  你可以进行简单的配置，接入 <a href=\"https://github.com/gitalk/gitalk\">Gitalk</a> 或 <a href=\"https://github.com/SukkaW/DisqusJS\">DisqusJS</a> 评论系统</p>\n<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>\n<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>\n<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>\n<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前🏃</p>\n<p>未来，它一定会成为你离不开的伙伴</p>\n<p>尽情发挥你的才华吧！</p>\n<p>😘 Enjoy~</p>\n",
+        "fileName": "hello-gridea",
+        "abstract": "<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>\n✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>\n",
+        "title": "Hello Gridea",
+        "tags": [
+          {
+            "name": "Gridea",
+            "slug": "gridea",
+            "used": true,
+            "link": "/tag/gridea"
+          }
+        ],
+        "date": "2018-12-12 00:00:00",
+        "dateFormat": "2018-12-12",
+        "feature": "https://gridea.dev/themes.png",
+        "link": "/post/hello-gridea",
+        "hideInList": false,
+        "toc": "<ul class=\"markdownIt-TOC\">\n<li>\n<ul>\n<li><a href=\"#%E7%89%B9%E6%80%A7\">特性👇</a></li>\n</ul>\n</li>\n</ul>\n"
+      }
+    ],
+    "tags": [
+      {
+        "index": -1,
+        "name": "生活随想",
+        "slug": "WibWptDz1",
+        "used": true,
+        "link": "/tag/WibWptDz1"
+      },
+      {
+        "index": -1,
+        "name": "编程生涯",
+        "slug": "rwkHQqSzU",
+        "used": true,
+        "link": "/tag/rwkHQqSzU"
+      },
+      {
+        "index": -1,
+        "name": "文学集锦",
+        "slug": "V6NMYW_ta",
+        "used": true,
+        "link": "/tag/V6NMYW_ta"
+      },
+      {
+        "name": "Gridea",
+        "slug": "gridea",
+        "used": true,
+        "link": "/tag/gridea"
+      }
+    ],
+    "customConfig": {},
+    "utils": {
+      "now": 1555639638760
+    }
+  }
+}
