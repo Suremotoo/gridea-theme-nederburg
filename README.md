@@ -8,6 +8,8 @@ This Gridea theme was ported from [competethemes](https://www.competethemes.com/
 
 [![点击预览](https://img.shields.io/badge/%E7%82%B9%E5%87%BB%E9%A2%84%E8%A7%88%E6%95%88%E6%9E%9C-Hugo-brightgreen.svg)](http://suremotoo.site/blog/)
 [![点击预览](https://img.shields.io/badge/%E7%82%B9%E5%87%BB%E9%A2%84%E8%A7%88%E6%95%88%E6%9E%9C-Gridea-red.svg)](http://suremotoo.coding.me/blog/)
+<img src="https://img.shields.io/github/downloads/Suremotoo/gridea-nederburg-theme/total.svg?style=flat-square"/>
+
 ## Development
 
 Go to the directory where you have your Gridea site and run:
