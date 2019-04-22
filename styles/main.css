@@ -2826,7 +2826,7 @@ li.pingback:first-child {
   width: 90%;
   float: right;
 }
-#timeline .timeline-item .timeline-content h3 {
+#timeline .timeline-item .timeline-content h3.timeline-title {
   padding: 15px;
   background: #e44d4d;
   color: #fff;

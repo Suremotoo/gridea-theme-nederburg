@@ -13,7 +13,7 @@
                     <% posts.forEach(function(post) { %>
                     <%if (post.date.indexOf(year) !== -1) { %>
                         <div class="timeline-content">
-                            <h3> <%= post.title %></h3>
+                            <h3 class="timeline-title"> <%= post.title %></h3>
                             <p>
                                 <%- post.abstract %>
                             </p>
