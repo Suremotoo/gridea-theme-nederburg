@@ -1019,6 +1019,10 @@ a img {
 .entry-content {
   margin: 3em 0;
 }
+.entry-content article img {
+  display: block; max-width: 100%;height: auto;
+}
+
 .entry-content img.full-width {
   position: relative;
   max-width: none;
@@ -1103,7 +1107,10 @@ a img {
   font-weight: 400;
   letter-spacing: 0.1em;
   display: block;
-  width: 180%;
+  width: 98px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }
 .author-meta .bio a {
   margin-right: 0.375em;

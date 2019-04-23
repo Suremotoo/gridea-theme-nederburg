@@ -24,7 +24,7 @@ app.get('/', async (req, res) => {
  * Post Page
  */
 app.get('/post/:postName', async (req, res) => {
-  const dataPath =  path.join(__dirname, '/mock/post2.json').replace(/\\/g, "\/");
+  const dataPath =  path.join(__dirname, '/mock/post.json').replace(/\\/g, "\/");
   let listData = JSON.parse(fs.readFileSync(dataPath));
   res.render('post', listData)
 })
