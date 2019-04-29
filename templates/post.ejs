@@ -68,7 +68,7 @@
             </div>
             <div class="bio">
               <p><%=themeConfig.siteName%></p>
-              <% ['github', 'twitter', 'weibo', 'zhihu', 'facebook'].forEach((item) => { %>
+              <% ['github', 'twitter', 'weibo', 'zhihu', 'facebook', 'envelope', 'qq'].forEach((item) => { %>
                 <% if (site.customConfig[item]) { %>
                   <a class="email" target="_blank"
                      href="<%= site.customConfig[item] %>">
