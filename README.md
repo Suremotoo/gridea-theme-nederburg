@@ -20,7 +20,7 @@ For more information read the official [dev guide](https://gridea.dev/docs/) of 
 
 ## Installation
 1. Stop if your gridea program is running, please.
-2. copy **<gridea-nederburg-theme/exampleSite/gridea-nederburg>** to **<Your gridea's themes' dir>**
+2. cd **<Your gridea's themes' dir>** && ``` git clone https://github.com/Suremotoo/gridea-theme-nederburg.git ``` 
 3. start gridea app again & change gridea-nederburg & save
 
 ### 🥰🥰Enjoy!
