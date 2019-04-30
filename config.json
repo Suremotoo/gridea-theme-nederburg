@@ -65,6 +65,22 @@
       "value": "",
       "type": "input",
       "note": "UA-xxxxxxxxx-x"
+    },
+    {
+      "name": "username",
+      "label": "昵称",
+      "group": "用户信息",
+      "value": "",
+      "type": "input",
+      "note": "昵称"
+    },
+    {
+      "name": "userdesc",
+      "label": "简单描述",
+      "group": "用户信息",
+      "value": "",
+      "type": "input",
+      "note": "简单描述"
     }
   ]
 }

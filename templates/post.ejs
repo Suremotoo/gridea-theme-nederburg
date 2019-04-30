@@ -57,10 +57,10 @@
           <div class="author-meta">
             <div class="author">
               <img alt='' src="<%= themeConfig.domain %>/images/avatar.png?v=<%= site.utils.now %>" class='avatar avatar-72 photo' height='72' width='72'>
-              <span>WRITTEN BY: &nbsp;&nbsp;&nbsp;<a href='<%- themeConfig.domain %>'><%-themeConfig.siteName%></a> </span>
+              <span>WRITTEN BY: &nbsp;&nbsp;&nbsp;<a href='<%- themeConfig.domain %>'><%-site.customConfig['username']%></a> </span>
             </div>
             <div class="bio">
-              <p><%=themeConfig.siteName%></p>
+              <p><%=site.customConfig['userdesc']%></p>
               <% ['github', 'twitter', 'weibo', 'zhihu', 'facebook', 'envelope', 'qq'].forEach((item) => { %>
                 <% if (site.customConfig[item]) { %>
                   <a class="<%= item %>" target="_blank"
