@@ -47,13 +47,6 @@
                     <% } %>
                     <% })
                 }%>
-                <!--<a href="/blog/categories/github" title="View all posts in Github">Github</a>
-                <a href="/blog/categories/ssh" title="View all posts in SSH">SSH</a>
-                <a href="/blog/categories/apidoc" title="View all posts in apidoc">apidoc</a>
-                <a href="/blog/categories/code" title="View all posts in code">code</a>
-                <a href="/blog/categories/markdown" title="View all posts in markdown">markdown</a>
-                <a href="/blog/categories/snap" title="View all posts in snap">snap</a>
-                <a href="/blog/categories/snap-store" title="View all posts in snap store">snap store</a>-->
               </p>
             </div>
             <div class="entry-tags">
@@ -70,9 +63,9 @@
               <p><%=themeConfig.siteName%></p>
               <% ['github', 'twitter', 'weibo', 'zhihu', 'facebook', 'envelope', 'qq'].forEach((item) => { %>
                 <% if (site.customConfig[item]) { %>
-                  <a class="email" target="_blank"
+                  <a class="<%= item %>" target="_blank"
                      href="<%= site.customConfig[item] %>">
-                    <i class="fab fa-<%= item %>" title="<%= item %>"></i>
+                    <i class="<%=item == 'envelope'?'fa':'fab' %> fa-<%= item %>" title="<%= item %>"></i>
                   </a>
                 <% } %>
               <% }) %>

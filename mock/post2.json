@@ -61,7 +61,7 @@
     "showFeatureImage": true,
     "siteDescription": "It is not the clock but your dream that wakes you up every morning.\n\n",
     "siteName": "Suremotoo's Blog",
-    "themeName": "gridea-nederburg-theme",
+    "themeName": "gridea-theme-nederburg",
     "dateFormat": "YYYY-MM-DD",
     "postUrlFormat": "SLUG",
     "tagUrlFormat": "SHORT_ID",

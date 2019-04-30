@@ -14,7 +14,7 @@
             <% if (site.customConfig[item]) { %>
                 <li>
                     <a href="<%= site.customConfig[item] %>" data-animate-hover="pulse" class="<%= item %>" target="_blank">
-                        <i class="fab fa-<%= item %>" title="<%= item %>"></i>
+                        <i class="<%=item == 'envelope'?'fa':'fab' %> fa-<%= item %>" title="<%= item %>"></i>
                         <span class="screen-reader-text"><%= item %></span>
                     </a>
                 </li>

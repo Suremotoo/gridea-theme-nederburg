@@ -61,7 +61,7 @@
     "showFeatureImage": true,
     "siteDescription": "It is not the clock but your dream that wakes you up every morning.\n\n",
     "siteName": "Suremotoo's Blog",
-    "themeName": "gridea-nederburg-theme",
+    "themeName": "gridea-theme-nederburg",
     "dateFormat": "YYYY-MM-DD",
     "postUrlFormat": "SLUG",
     "tagUrlFormat": "SHORT_ID",
@@ -191,7 +191,63 @@
       "used": true,
       "link": "/tag/gridea"
     }],
-    "customConfig": {},
+    "customConfig": [{
+        "name": "github",
+        "label": "Github",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "https://github.com/Suremotoo/gridea-theme-nederburg"
+      },
+      {
+        "name": "twitter",
+        "label": "Twitter",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "weibo",
+        "label": "微博",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "zhihu",
+        "label": "知乎",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "facebook",
+        "label": "Facebook",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "qq",
+        "label": "qq",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "envelope",
+        "label": "envelope",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      }
+    ],
     "utils": {
       "now": 1555638809279
     }
