@@ -61,11 +61,11 @@
             </div>
             <div class="bio">
               <p><%=site.customConfig['userdesc']%></p>
-              <% ['github', 'twitter', 'weibo', 'zhihu', 'facebook', 'envelope', 'qq'].forEach((item) => { %>
+              <% ['github', 'twitter', 'weibo', 'zhihu', 'facebook', 'envelope', 'qq', 'rss'].forEach((item) => { %>
                 <% if (site.customConfig[item]) { %>
                   <a class="<%= item %>" target="_blank"
                      href="<%= site.customConfig[item] %>">
-                    <i class="<%=item == 'envelope'?'fa':'fab' %> fa-<%= item %>" title="<%= item %>"></i>
+                    <i class="<%=(item == 'envelope' || item == 'rss')?'fa':'fab' %> fa-<%= item %>" title="<%= item %>"></i>
                   </a>
                 <% } %>
               <% }) %>
@@ -94,7 +94,6 @@
       </section>
     </div>
   </div>
-
   <%- include('./includes/footer') %>
 </div>
 </body>

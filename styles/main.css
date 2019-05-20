@@ -1029,6 +1029,12 @@ a img {
 .entry-content {
   margin: 3em 0;
 }
+.entry-content video {
+  margin: 1em 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .entry-content article img {
   display: block;
   max-width: 100%;
